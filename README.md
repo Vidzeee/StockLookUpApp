@@ -11,14 +11,13 @@ A simple Android app that allows users to search for real-time stock market data
 3. [Usage](#usage)
 4. [API Reference](#api-reference)
 5. [Error Handling](#error-handling)
-6. [Screenshots](#screenshots)
 ---
 
 ## Features
 
 - Real-time stock search using the **Alpha Vantage** API.
 - Displays stock price, percentage change, and company name.
-- Simple, user-friendly UI built with standard Android components (no Jetpack Compose).
+- Simple, user-friendly UI built with standard Android components using Jetpack Compose.
 - Handles API call errors and shows loading states during data fetching.
 
 ---
@@ -98,7 +97,7 @@ GET https://www.alphavantage.co/query?function=GLOBAL_QUOTE&keywords={symbol}&ap
         }
   }
 
-  (Global Quote)-
+  ---(Global Quote)-
   {
     "Global Quote": {
         "01. symbol": "IBM",
@@ -124,5 +123,3 @@ GET https://www.alphavantage.co/query?function=GLOBAL_QUOTE&keywords={symbol}&ap
 - All API errors are gracefully handled and reported back to the user.
 
 ---
-
-## Screenshots
